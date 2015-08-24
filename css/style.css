@@ -37,14 +37,4 @@ body {
  *
  ***************************
 */
-.pager li>a {
-    border: none;
-    border-radius: 0;
-    background-color: #0F121A;
-    color: #ffffff;
-    font-size: medium;
-}
 
-.pager li > a:focus, .pager li > a:hover {
-    text-decoration: underline;
-}
