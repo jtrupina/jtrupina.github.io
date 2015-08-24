@@ -22,7 +22,13 @@ body {
  ***************************
 */
 .container {
-    border: 2px white;
+    max-width: 1024px;
+}
+.container .wrapper {
+    background-color: #262b37;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 25px 50px;
 }
 /*
  ***************************
