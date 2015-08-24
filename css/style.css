@@ -44,3 +44,7 @@ body {
     color: #ffffff;
     font-size: medium;
 }
+
+.pager li > a:focus, .pager li > a:hover {
+    text-decoration: underline;
+}
