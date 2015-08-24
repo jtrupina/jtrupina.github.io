@@ -3,6 +3,7 @@
  *
  *  1.  GLOBAL
  *  2.  LAYOUT
+ *  3.  NAV
 */
 
 /*
@@ -21,5 +22,17 @@ body {
  ***************************
 */
 .container {
-    border: 1px white;
+    border: 2px white;
+}
+/*
+ ***************************
+ *  3. NAV
+ *
+ ***************************
+*/
+.navbar-default {
+    background-color: #0F121A;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
 }
