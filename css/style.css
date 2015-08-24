@@ -2,7 +2,7 @@
  * Styles:
  *
  *  1.  GLOBAL
- *
+ *  2.  LAYOUT
 */
 
 /*
@@ -13,4 +13,13 @@
 */
 body {
     background-color: #0F121A;
+}
+/*
+ ***************************
+ *  2. LAYOUT
+ *
+ ***************************
+*/
+.container {
+    border: 1px white;
 }
