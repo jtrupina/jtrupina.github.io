@@ -16,6 +16,9 @@ body {
     background-color: #0F121A;
     color: #ffffff;
 }
+p {
+    word-wrap: break-word;
+}
 /*
  ***************************
  *  2. LAYOUT
@@ -51,6 +54,10 @@ body {
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    font-size: x-large;
 }
 @media (min-width:768px){
     .navbar-nav{
