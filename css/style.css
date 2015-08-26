@@ -43,6 +43,15 @@ body {
 .navbar-default .navbar-collapse {
     text-align: center;
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #0F121A;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
 @media (min-width:768px){
     .navbar-nav{
         float:none;
