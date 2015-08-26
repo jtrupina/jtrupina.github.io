@@ -51,6 +51,7 @@ p {
 }
 .navbar-default .navbar-toggle {
     border-color: #ffffff;
+    background-color: #262B37;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #ffffff;
@@ -58,6 +59,9 @@ p {
 .navbar-default .navbar-nav>li>a {
     color: #ffffff;
     font-size: x-large;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #262B37;
 }
 @media (min-width:768px){
     .navbar-nav{
