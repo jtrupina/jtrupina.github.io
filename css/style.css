@@ -89,3 +89,10 @@ p {
 .curly {
     color: #08A39B;
 }
+.personal-photo {
+    width: 175px;
+    height: 175px;
+}
+.personal-image-div {
+    text-align: center;
+}
