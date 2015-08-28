@@ -38,6 +38,12 @@ p {
 .jumbotron {
     background-color: #0F121A;
 }
+
+@media screen and (max-width: 768px) {
+    .jumbotron {
+        padding-left: 30px;
+    }
+}
 /*
  ***************************
  *  3. NAV
